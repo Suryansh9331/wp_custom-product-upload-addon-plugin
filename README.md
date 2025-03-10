@@ -54,36 +54,42 @@ A powerful WooCommerce plugin that allows customers to **upload images** directl
   ✅ Checkout  
   ✅ Order Summary  
 
----
+
 
 ➡️ Allow Multiple Files
 To allow multiple files, update the input field like this:
+
 <input type="file" id="custom_upload" name="custom_upload[]" multiple />
 
 ➡️ Limit File Types
 You can restrict file types by adjusting the accept attribute:
+
 accept="image/png, image/jpeg, image/jpg"
 
 💻 Code Structure
 📦 custom-upload-addon
+
 ├── 📄 custom_product_add_on.php
 ├── 📄 custom_product_add_on.js
 └── 📄 README.md
 
 🎯 How It Works
- 1. User selects product variation
+  
+1. User selects product variation
  2. User uploads an image
  3. Price is updated instantly on the product page ✅
  4. Updated price reflects in cart, checkout, and order summary ✅ 
  5. Uploaded file is saved and shown in admin order details ✅
 
 🚨 Troubleshooting
-Issue: Price not updating on product page?
-➡️ Make sure WooCommerce JavaScript is loaded correctly.
-➡️ Check if jQuery is enabled in your theme.
+Issue: 
+ Price not updating on product page?
+ ➡️ Make sure WooCommerce JavaScript is loaded correctly.
+ ➡️ Check if jQuery is enabled in your theme.
 
-Issue: Uploaded file not showing in admin?
-➡️ Ensure proper file permissions for uploads directory.
+Issue: 
+    Uploaded file not showing in admin?
+ ➡️ Ensure proper file permissions for uploads directory.
 
 🌟 Future Enhancements
 ✅ Multiple file uploads
